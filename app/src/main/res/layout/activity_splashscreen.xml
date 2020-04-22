@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    android:layout_gravity="center"
+    android:id="@+id/lin_lay"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/splash"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@mipmap/darmaan" />
+            <TextView
+                android:id="@+id/textSlogan"
+                android:layout_below="@+id/splash"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="درمان چهره تازه خدمات صحی"
+                android:textStyle="bold"
+                android:textColor="@color/greenC"
+                android:textSize="20sp" />
+    </RelativeLayout>
+
+
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+</LinearLayout>

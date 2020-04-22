@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/zi"
+        android:title="zoomin"
+        android:icon="@drawable/ic_zoomin"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/zo"
+        android:title="zoomout"
+        android:icon="@drawable/ic_zoomout"
+        app:showAsAction="always" />
+
+</menu>

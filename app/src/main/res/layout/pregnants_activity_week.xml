@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcfc"
+    tools:context="com.uth.raad.darmaan.pregnency_section.Pregnants_Week_Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/prgnencyWeekToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@color/cardview_light_background"
+        >
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+            <ImageView
+                android:id="@+id/bookthumbnail"
+                android:layout_width="125dp"
+                android:layout_height="170dp"
+                android:background="#2d2d2d"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/txtTitle"
+                android:text="book title"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/c1"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtCat"
+                android:text="Category"
+                android:background="#edecec"
+                android:textSize="16dp"
+                android:padding="8dp"
+                android:textColor="@color/c1"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtDesc"
+                android:text="Description"
+                android:textSize="60px"
+                android:textColor="@color/c1"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

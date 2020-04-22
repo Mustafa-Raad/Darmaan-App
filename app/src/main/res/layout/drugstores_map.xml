@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uth.raad.darmaan.map_section.Balkh_Drugstores_Map_Locator">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/mapToolbar"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+<ScrollView
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginBottom="15dp">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+    android:text="همایون درملتون"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView2"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    android:onClick="Address1"
+    android:id="@+id/button3"
+    android:layout_marginBottom="10dp"
+    />
+    <Button
+        android:text="امید جلیل درملتون"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:onClick="Address2"
+        android:id="@+id/button4"
+        android:layout_marginBottom="10dp"
+    />
+    <Button
+        android:text="فاروقی درملتون"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:onClick="Address3"
+        android:id="@+id/button5"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:text="امید درملتون"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:onClick="Address4"
+        android:id="@+id/button6"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:text="عظیمی درملتون"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:onClick="Address5"
+        android:id="@+id/button7"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:text="سمیر درملتون"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:onClick="Address6"
+        android:id="@+id/button8"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:text="باختر درملتون"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:onClick="Address7"
+        android:id="@+id/button9"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:text="قیس ظهیر درملتون"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:onClick="Address8"
+        android:id="@+id/button10"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:text="محمد آصف درملتون"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:onClick="Address9"
+        android:id="@+id/button11"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:text="علی جوشن درملتون"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:onClick="Address10"
+        android:id="@+id/button12"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:text="احمد قیس درملتون"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:onClick="Address11"
+        android:id="@+id/button13"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:text="بابر سینا درملتون"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:onClick="Address12"
+        android:id="@+id/button14"
+        android:layout_marginBottom="10dp"
+        />
+        <Button
+            android:text="صمیم قادری درملتون"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:onClick="Address13"
+            android:id="@+id/button15"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:text="فقیر زاده درملتون"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:onClick="Address14"
+            android:id="@+id/button16"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:text="عارف تمیم درملتون"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:onClick="Address15"
+            android:id="@+id/button17"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:text="رفا درملتون"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:onClick="Address16"
+            android:id="@+id/button18"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:text="اسلمی درملتون"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:onClick="Address17"
+            android:id="@+id/button19"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:text="شفاجو درملتون"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:onClick="Address18"
+            android:id="@+id/button20"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:text="ادویه فروشی دیپوی نمبر 13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:onClick="Address19"
+            android:id="@+id/button21"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+    <fragment
+
+        android:layout_marginTop="80dp"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/mapFragment"
+        />
+</LinearLayout>

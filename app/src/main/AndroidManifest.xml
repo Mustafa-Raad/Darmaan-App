@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uth.raad.darmaan">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <permission android:name="com.uth.raad.darmaan.MAPS.RECEIVE"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.example.assassinm.darmaan.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permissions.READ_GSERVICES"/>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.uth.raad.darmaan.AppEntranceScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCOaj0h7SaGjZ5IJ_Tnu0t83NUWZ9_PR3s"/>
+
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <!--home activities main activities-->
+        <activity android:name="com.uth.raad.darmaan.HomeActivity"/>
+        <activity android:name="com.uth.raad.darmaan.news_section.NewsMainView"/>
+        <activity android:name="com.uth.raad.darmaan.news_section.News_PostActivity"/>
+        <!--ecnyclopedia activities-->
+        <activity android:name="com.uth.raad.darmaan.encyclopedia_section.WikiMainActivity"/>
+        <activity android:name="com.uth.raad.darmaan.encyclopedia_section.Encyclopedia"/>
+
+        <!--map section activites-->
+        <activity android:name="com.uth.raad.darmaan.map_section.Province_selection"/>
+        <activity android:name="com.uth.raad.darmaan.map_section.Balkh_Map_Section_Parts"/>
+        <activity android:name="com.uth.raad.darmaan.map_section.Herat_Map_Section_Parts"/>
+        <activity android:name="com.uth.raad.darmaan.map_section.Kabul_Map_Section_Parts"/>
+        <activity android:name="com.uth.raad.darmaan.map_section.Kandahar_Map_Section_Parts"/>
+        <activity android:name="com.uth.raad.darmaan.map_section.Nangarhar_Map_Section_Parts"/>
+        <activity android:name="com.uth.raad.darmaan.map_section.Balkh_Doctors_Map_Locator"/>
+        <activity android:name="com.uth.raad.darmaan.map_section.Balkh_Drugstores_Map_Locator"/>
+        <activity android:name="com.uth.raad.darmaan.map_section.Balkh_Hospitals_Map_Locator"/>
+        <activity android:name="com.uth.raad.darmaan.map_section.Balkh_Clinics_Map_Locator"/>
+
+
+        <!--pregnency section-->
+        <activity android:name="com.uth.raad.darmaan.pregnency_section.Pregnants_Week_Activity"/>
+        <activity android:name="com.uth.raad.darmaan.pregnency_section.PregnantsGuide_MainActivity"/>
+
+        <!--guide slider-->
+        <activity android:name="com.uth.raad.darmaan.guide_slider.DGMainActivity" />
+
+    </application>
+
+</manifest>

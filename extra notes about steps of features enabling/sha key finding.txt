@@ -1,0 +1,4 @@
+keytool -list -v -keystore "%USERPROFILE%\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+
+>> run this commnad on cmd to find sha, wd keys of your jre, and used to add google apis to your, android, web, ios applicatoins 
+>> before runing that command, first add your java jre path to environmental path file of your machine

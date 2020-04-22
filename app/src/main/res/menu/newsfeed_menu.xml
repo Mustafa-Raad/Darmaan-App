@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addPost"
+        android:title="Add Post"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_add_white_24dp"/>
+    <!--<item-->
+        <!--android:id="@+id/Search"-->
+        <!--android:title="Search"-->
+        <!--android:icon="@drawable/ic_search_white_18dp"-->
+        <!--app:showAsAction="always"-->
+        <!--/>-->
+    <!--<item-->
+        <!--android:id="@+id/Hide_Read"-->
+        <!--android:title="Hide Read"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/MarkAllRead"-->
+        <!--android:title="Mark All Read"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/DeleteAll"-->
+        <!--android:title="Delete All"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/DeleteAllRead"-->
+        <!--android:title="Delete All Read"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/SortBy"-->
+        <!--android:title="Sort By"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/SwitchLayout"-->
+        <!--android:title="Switch Layout"-->
+        <!--app:showAsAction="never" />-->
+</menu>

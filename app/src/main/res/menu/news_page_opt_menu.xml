@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Favorite"
+        android:title="Favorite"
+        android:icon="@drawable/ic_favorite_border_white_18dp"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/Share"
+        android:title="Share"
+        android:icon="@drawable/ic_share_white_18dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/Text_Size"
+        android:title="Text Size"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Delete"
+        android:title="Delete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Copy_Link"
+        android:title="Copy Link"
+        app:showAsAction="never" />
+
+</menu>
