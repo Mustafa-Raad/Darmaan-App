@@ -30,3 +30,16 @@ OOOOk time to run it on AVD
 wooooow it opens and works perfectly.
 
 Have a good day please follow these steps for Code Review :)
+***************************************************************************************************************************
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+    defaultConfig {
+            applicationId "com.uth.raad.darmaan"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 2
+        versionName "2.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+NOte: make sure your android studio have above sdk version :)
